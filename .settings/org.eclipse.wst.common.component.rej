@@ -1,0 +1,9 @@
+diff a/.settings/org.eclipse.wst.common.component b/.settings/org.eclipse.wst.common.component	(rejected hunks)
+@@ -9,7 +9,6 @@
+         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+         		
+         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+         		
+         <property name="java-output-path" value="target/classes"/>
+                 
