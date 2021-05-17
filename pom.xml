@@ -186,10 +186,20 @@
 		</dependency>
 
 
-
+		<!-- MyBatis : https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.2.7</version>
+		</dependency>
+		<!-- Spring MyBatis : https://mvnrepository.com/artifact/org.mybatis/mybatis-spring -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>1.2.1</version>
+		</dependency>
 
 		<!-- Spring Security 사용을 위한 dependency 등록 End -->
-
 	</dependencies>
 	<build>
 		<plugins>
