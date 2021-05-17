@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class LoginController {
 	private static final Logger logger = LoggerFactory.getLogger(LoginController.class);
 
+	@RequestMapping(value = "/login/loginPage.do")
+	public String loginPage() {
+		return "/login/loginPage";
+	}
+
 	@RequestMapping(value = "/login/accessDenied.do")
 	public String accessDeniedPage() throws Exception {
 		return "/login/accessDenied";
